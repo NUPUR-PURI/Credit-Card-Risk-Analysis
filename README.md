@@ -151,6 +151,7 @@ transactions
 Credit-Card-Risk-Analysis/
 │
 ├── README.md
+│
 ├── sql/
 │   ├── 01_Data_Exploration.sql
 │   ├── 02_Data_Quality.sql
@@ -163,7 +164,7 @@ Credit-Card-Risk-Analysis/
     ├── 02_High_Spending_Customers.png
     ├── 03_Declined_Transactions.png
     └── 04_High_Transaction_Frequency_Customers.png
-
+```
 
 ---
 
