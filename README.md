@@ -166,25 +166,6 @@ Credit-Card-Risk-Analysis/
     └── 04_High_Transaction_Frequency_Customers.png
 ```
 
----
-
-## 📷 Analysis Screenshots
-
-### High-Value Transactions
-
-![High Value Transactions](screenshots/01_High_Value_Transactions.png)
-
-### High-Spending Customers
-
-![High Spending Customers](screenshots/02_High_Spending_Customers.png)
-
-### Declined Transactions
-
-![Declined Transactions](screenshots/03_Declined_Transactions.png)
-
-### High Transaction Frequency
-
-![High Transaction Frequency](screenshots/04_High_Transaction_Frequency_Customers.png)
 
 ---
 
