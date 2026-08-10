@@ -67,20 +67,7 @@ Contains transaction-level information.
 - `transaction_type`
 - `status`
 
-### Table Relationships
 
-```text
-customers
-    │
-    │ customer_id
-    ↓
-credit_cards
-    │
-    │ card_id
-    ↓
-transactions
-
----
 
 ## 🔍 Analysis Performed
 
