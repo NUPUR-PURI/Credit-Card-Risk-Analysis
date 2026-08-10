@@ -79,3 +79,96 @@ credit_cards
     │ card_id
     ↓
 transactions
+
+---
+
+## 🔍 Analysis Performed
+
+### 1. Data Exploration
+
+Performed initial exploration of the database to understand:
+
+- Number of customers
+- Number of credit cards
+- Number of transactions
+- Card types
+- Transaction types
+- Transaction statuses
+- Overall transaction amount
+- Average, minimum, and maximum transaction amounts
+- Transaction date range
+
+### 2. Data Quality Analysis
+
+Performed data quality checks to identify:
+
+- Missing transaction amounts
+- Missing transaction statuses
+- Missing card relationships
+- Duplicate records
+- Potential data inconsistencies
+
+### 3. Customer Analysis
+
+Analyzed customer-level behaviour including:
+
+- Total spending per customer
+- Transaction count per customer
+- Average transaction amount per customer
+- Total credit limit available per customer
+
+### 4. Transaction Analysis
+
+Analyzed transaction patterns including:
+
+- Merchant category with the highest transaction volume
+- Merchant category with the highest total spending
+- Transaction counts by status
+- Average transaction amount by transaction type
+- Top 10 highest-value transactions
+
+### 5. Risk Analysis
+
+Identified potential risk indicators including:
+
+- Transactions above the overall average transaction amount
+- Customers with spending above average customer spending
+- Customers with high numbers of declined transactions
+- Customers with unusually high transaction frequency
+- Customers with high transaction frequency and total spending
+
+---
+
+## 💡 Key Risk Indicators
+
+| Risk Indicator | Purpose |
+|---|---|
+| High transaction amount | Identifies unusually large transactions |
+| High customer spending | Identifies customers spending significantly above average |
+| Declined transactions | Highlights repeated transaction failures |
+| High transaction frequency | Identifies unusually frequent transaction activity |
+| High frequency + spending | Combines multiple behavioural indicators |
+
+> These indicators are analytical signals and should not be treated as definitive evidence of fraud or customer default.
+
+---
+
+## 📁 Project Structure
+
+```text
+Credit-Card-Risk-Analysis/
+│
+├── README.md
+│
+├── sql/
+│   ├── 01_Data_Exploration.sql
+│   ├── 02_Data_Quality.sql
+│   ├── 03_Customer_Analysis.sql
+│   ├── 04_Transaction_Analysis.sql
+│   └── 05_Risk_Analysis.sql
+│
+└── screenshots/
+    ├── 01_High_Value_Transactions.png
+    ├── 02_High_Spending_Customers.png
+    ├── 03_Declined_Transactions.png
+    └── 04_High_Transaction_Frequency_Customers.png
